@@ -1,7 +1,7 @@
 To run interactively:<br/>
 python -i firewall.py<br/>
 fw = Firewall('firewall.csv')<br/>
-print fw.accept_packet("inbound", "tcp", 80, "192.168.1.2")
+print fw.accept_packet("inbound", "tcp", 80, "192.168.1.2")<br/>
 
 I was looking to set up the system to be able to solve it efficiently as a brute force linear search through all the rules
 didn't seem to be the main objective of the challenge. My approach was to first sort all the rules by the start values
